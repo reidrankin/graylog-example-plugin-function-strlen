@@ -16,7 +16,7 @@ before_deploy:
 deploy:
   provider: releases
   api_key:
-    secure: <enter your encrypted GitHub access token>
+    secure: "Uhs0hWWP550OKxPp/g3RRU9CFmXmmgegIr0wycq0v71lFWQVN9+eCU+JY9xZiFeDTjIx94J7wCqLAo6ntKN9bQkod/sQBACuhKzAwjAUZtakFQpk1bJpi5ru35QLz+xl0nJbaqlXajTiWArdOc8rUSS7B7Eb1PpQ9Ngibd47OAMM/PTI8bnxY4JpMybCh2Kv/t8NfvxFAuYkDHIfW3eBm4EMX4rHhXsbqBLNDPcJOZSsUWbjfOvcwy5jOd3K8/mgvBGn9c5VdzPJXiNUllJOw9qvnn9N4NrBD6oRcLKbflPCOTDeCOPOr7EpuGH0VTZKeIBpB58fuQzjx5Ojgzro0FOu6AR3xWiIEUc+SgxhqNLOjDZPz/CRRVaqCL+B1/KyeIIEa+zO+Lua0GvirM7UuZzgevUIhmG+nJIFf19ONzWENCDMtd/fk2ywTwdvkAkm1eVduNBsUlxIPd0EBaHvbLPF2LOSnGqDunBokBjM1nuJ9sJVif9b5DCt2nloaafU+USSwjLja7PXEHbLtjbmowO4/1I0DX7kogDMvXWg9qE1D3OyB1WLoCI3L2dxumtnvLOdMTNamgvWQR6CT343ALb9e48gJbLOusx/Xb6W/M/aHnRyiW/VdhUbyVUsQwdg0pwS5LvwEbxiIC9ncjGLupdfSf8NBHOwkQdAJbOebF8="
   file:
     - "${RELEASE_PKG_FILE}"
     - "${RELEASE_DEB_FILE}"
