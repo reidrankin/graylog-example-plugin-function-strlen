@@ -18,7 +18,7 @@ public class StringReplaceFunctionMetaData implements PluginMetaData {
 
     @Override
     public String getName() {
-        return "String replace pipeline function";
+        return "StringReplaceFunctionPlugin";
     }
 
     @Override
