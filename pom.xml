@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example.plugins</groupId>
-    <artifactId>graylog-plugin-function-strlen</artifactId>
+    <artifactId>graylog-plugin-function-stringreplace</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -21,9 +21,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:YourGitHubUsername/graylog-plugin-function-strlen.git</connection>
-        <developerConnection>scm:git:git@github.com:YourGitHubUsername/graylog-plugin-function-strlen.git</developerConnection>
-        <url>https://github.com/YourGitHubUsername/graylog-plugin-function-strlen</url>
+        <connection>scm:git:git@github.com:YourGitHubUsername/graylog-plugin-function-stringreplace</connection>
+        <developerConnection>scm:git:git@github.com:YourGitHubUsername/graylog-plugin-function-stringreplace.git</developerConnection>
+        <url>https://github.com/YourGitHubUsername/graylog-plugin-function-stringreplace</url>
         <tag>HEAD</tag>
     </scm>
 

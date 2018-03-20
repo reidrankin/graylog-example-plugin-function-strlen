@@ -23,5 +23,5 @@ deploy:
     - "${RELEASE_RPM_FILE}"
   skip_cleanup: true
   on:
-    tags: true
+    branch: master
     jdk: oraclejdk8

@@ -1,3 +1,3 @@
-Example plugin that implements a simple Graylog Pipeline Processor function.
+# graylog-plugin-function-stringreplace
 
-Blog post explaining this project: https://www.graylog.org/blog/71-writing-your-own-graylog-processing-pipeline-functions
+Adds a pipeline processor function that calls the String replace() method.
